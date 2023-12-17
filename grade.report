@@ -1,0 +1,77 @@
+# Grading Report
+# Github Account: M1chaelGuerrer0
+# Assignment:    "40-exam-mips"
+# --- Due Date:        "Dec 11 23:59:59"
+# --- Version Graded:  "graded_version (a67ae79)"
+# --- Version Date:    "Dec 10 14:47:10"
+# --- Status:          "Submission On Time"
+
+#
+# Max Points per task:
+# Tagging 10
+# Java Code 30
+# Java TAC 30
+# MIPS Code 30
+#
+  10 Points:  Tagging (10 points): 
+  15 Points:  Structure of Java Code (15 Points): 
+  13 Points:  Java Code Passed Test Cases (15 Points): did not test or did not care to fix the output
+  15 Points:  Structure of Java TAC Code (15 Points): 
+  10 Points:  Java TAC Passed Test Cases (15 Points): did not test or did not care, did not address "number > max"
+  15 Points:  Structure of MIPS Code (15 Points): 
+   8 Points:  MIPS Code Test Cases (15 Points): fractional2bin is off
+   0 Points:  Any additional comments: 
+----
+  86 Points:  Total
+
+ASSIGNMENT_40_total="86"        # M1chaelGuerrer0
+
+STUDENT COMMIT HISTORY:
+
+* Due Date: Dec 11 23:59:59  -----------------
+*  a67ae79  Dec 10 14:47 -0800  (HEAD -> main, tag: graded_version, origin/main, origin/HEAD, grading_information)
+*  ac72fa6  Dec 10 14:44 -0800  (tag: mips_code)
+*  636a097  Dec 10 14:10 -0800 
+*  fac5bed  Dec 10 13:46 -0800 
+*  2edc705  Dec 10 11:36 -0800 
+*  dd890c7  Dec 10 11:06 -0800 
+*  4cf9e2a  Dec 10 10:32 -0800 
+*  7dc140f  Dec 10 10:26 -0800 
+*  b33e028  Dec 10 10:25 -0800  (tag: java_tac_code)
+*  7802b4d  Dec 10 09:58 -0800 
+*  83fdf88  Dec 10 09:47 -0800 
+*  9d45a3a  Dec 10 09:28 -0800 
+*  c82706c  Dec 10 09:14 -0800 
+*  691d758  Dec 10 09:08 -0800 
+*  d08aeb8  Dec 09 22:52 -0800 
+*  ddb75b3  Dec 09 22:45 -0800 
+*  90205c9  Dec 09 20:21 -0800 
+*  08d2cc7  Dec 09 20:15 -0800 
+*  06a5d57  Dec 09 20:12 -0800 
+*  f24e34e  Dec 09 19:55 -0800 
+*  9391d8d  Dec 09 19:53 -0800 
+*  921700b  Dec 09 19:40 -0800 
+*  9c35d71  Dec 09 19:15 -0800 
+*  0c3f148  Dec 09 17:10 -0800 
+*  f2b65eb  Dec 09 17:08 -0800  (tag: java_code)
+*  8c36b32  Dec 09 17:05 -0800 
+*  e1bcf31  Dec 09 17:05 -0800 
+*  4ab3ae5  Dec 09 16:55 -0800 
+*  3c255db  Dec 09 16:54 -0800 
+*  2cff031  Dec 09 16:35 -0800 
+*  d9621fe  Dec 09 16:24 -0800 
+*  a7615e7  Dec 08 23:56 -0800 
+*  c3af9aa  Dec 08 23:40 -0800 
+*  e0e36fe  Dec 08 23:30 -0800 
+*  888903e  Dec 08 23:26 -0800 
+*  42bd54d  Dec 08 23:15 -0800 
+*  dacce4a  Dec 08 23:09 -0800 
+*  168d285  Dec 08 23:07 -0800 
+*  30cfeca  Dec 08 23:06 -0800 
+*  8af807e  Dec 08 23:04 -0800 
+*    dd9bc3b  Dec 08 22:48 -0800 
+|\  
+* |  3096391  Dec 08 22:48 -0800 
+|/  
+*  e5945c8  Nov 28 10:54 -0800 
+
