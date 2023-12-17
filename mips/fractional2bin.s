@@ -54,7 +54,7 @@ fractional2bin: nop                     # public static int fractional2bin(int $
 loop_2:         beq $t0, 0, done_2            # loop_2: for(;$t0 != 0;) {
 body_2:         nop                           # body_2:     ;
                     mul $t0, $t0, 2           #             $t0 = $t0 * 2; 
-                    ble $t0, $t2, alt_1       #             if ($t0 > $t2) {
+                    blt $t0, $t2, alt_1       #             if ($t0 >= $t2) {
 cons_1:             nop                       # cons_1:         ;           
                         print_di(1)           #                 mips.print_di(1);
                         sub $t0, $t0, $t2     #                 $t0 = $t0 - $t2;

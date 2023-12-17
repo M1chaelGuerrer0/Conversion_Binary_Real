@@ -30,8 +30,7 @@ public static int binaryReal(char[] arg0, char[] arg1, char[] arg2, char[] arg3)
    mips.print_ci('\n');
 
    return radix;
-}
-public static int value_of_max(int number) {
+}public static int value_of_max(int number) {
         int max;
       
         max = 10;
@@ -46,7 +45,7 @@ public static int fractional2bin(int fractional, int max_bits) {
         int number = fractional;
         while (number != 0 ) {
             number = number * 2; 
-            if (number > max) {
+            if (number >= max) {
                 mips.print_di(1);
                 number = number - max;
             }
@@ -87,8 +86,7 @@ public static int fractional2bin(int fractional, int max_bits) {
         i--;
     }
     return (int) value;
-}
-public static int glyph2int(char glyph, int radix) {
+}public static int glyph2int(char glyph, int radix) {
         int value = -1;
 
         if ('0' <= glyph && glyph <= '9') {
