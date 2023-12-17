@@ -1,3 +1,4 @@
+// provided by professor
 public static int strtofrac(char[] buffer, int radix) {
 
     int retval;

@@ -1,3 +1,4 @@
+# provided by professor
         .text
         .include "macros/syscalls.s"
         .include "macros/stack.s"
@@ -109,45 +110,3 @@ binaryReal: nop         # int binaryReal(char[] arg0, char[] arg1, char[] arg2, 
         jr $ra
                                 # }
                                 # 
-
-
-################################################################
-# Note about the position of:  
-#         pop $t4               #    arg4 = mips.pop(arg4);
-
-# In your subroutines, you have four or less arguments.
-# As such you don't need to build a frame for each of the 
-# subroutines. Since of your formal and local variables are 
-# allocated to registers. We only need the stack for temporary
-# variables.
-# 
-# In binaryReal, there are five arguments. One of which (arg4) 
-# must be placed on the stack. Are chooses are:
-#   1. Pop the argument off the stack -- prior to saving temps
-#   1. Use a frame for the subroutine's formal arguments
-# 
-# Under the frame approach, the structure of subroutine is as 
-# follows:
-# 
-# binary2real: nop
-# 
-#         build_frame(5)    # Frame has 5 formal arguments,
-#           - fp = sp - 5*4
-#         push_s_registers()
-#         demarshal input arguments                
-#            - lw $t0,  0($fp)
-#            - lw $t1,  4($fp)
-#            - lw $t2,  8($fp)
-#            - lw $t3, 12($fp)
-#            - lw $t4, 16($fp)
-# 
-#         ... subroutine code ...
-# 
-#         marshal return value
-#           - sw $t5,  0($fp) 
-#         pop_s_registers()
-#         jr $ra
-# 
-# For mips, however, we need to modify the above outline of statements
-# to use $a0, .. $a3 for the first four arguments, and only use the 
-# frame for the additional arguments

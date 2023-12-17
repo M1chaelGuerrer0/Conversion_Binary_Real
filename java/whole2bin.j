@@ -1,3 +1,5 @@
+// my code
+
 public static int whole2bin(int whole) {
         int number = whole;
         int remainder;

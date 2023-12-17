@@ -26,5 +26,4 @@ The program is structured with the following files:
 ```bash
       "make test_java" to test your current version of binaryReal.j
       "make test_mips" to test your current version of binaryReal.s
-      "make final" to test all your final versions of binaryReal.*
 ```

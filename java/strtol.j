@@ -1,3 +1,4 @@
+// my code
 public static int glyph2int(char glyph, int radix) {
         int value = -1;
 

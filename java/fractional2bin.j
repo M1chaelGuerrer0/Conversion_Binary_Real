@@ -1,3 +1,4 @@
+// my code
 public static int value_of_max(int number) {
         int max;
       
