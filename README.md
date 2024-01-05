@@ -21,7 +21,7 @@ The program is structured with the following files:
 ## Test:
 
 ### Test Cases provided by the professor:
-   To test run the following commands.
+   To test run the following commands on the command line.
 
 ```bash
       "make test_java" to test your current version of binaryReal.j
